@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #f7f7f4; color: #171717; }
+::selection { background: #dff7ad; }
+.prose-message { white-space: pre-wrap; overflow-wrap: anywhere; }
+.dot { animation: bounce 1.15s infinite ease-in-out; }
+.dot:nth-child(2) { animation-delay: .14s; }
+.dot:nth-child(3) { animation-delay: .28s; }
+@keyframes bounce { 0%, 60%, 100% { transform: translateY(0); opacity: .35 } 30% { transform: translateY(-4px); opacity: 1 } }
