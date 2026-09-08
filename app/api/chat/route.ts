@@ -7,7 +7,7 @@ export const maxDuration = 60;
 const MAX_FILE_BYTES = 10 * 1024 * 1024;
 const MAX_CONTEXT_CHARS = 70_000;
 const TEXT_MODEL = "openai/gpt-oss-20b";
-const VISION_MODEL = process.env.GROQ_VISION_MODEL || "meta-llama/llama-4-scout-17b-16e-instruct";
+const VISION_MODEL = process.env.GROQ_VISION_MODEL || "qwen/qwen3.8-27b";
 
 type HistoryItem = { role: "user" | "assistant"; content: string };
 type RequestBody = {
