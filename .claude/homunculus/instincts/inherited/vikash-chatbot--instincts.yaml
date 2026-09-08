@@ -1,0 +1,86 @@
+# Instincts generated from https://github.com/gamingffhayato-alt/vikash-chatbot-
+# Generated: 2026-09-08T16:02:19.475Z
+# Version: 2.0
+# NOTE: This file supplements (does not replace) any existing curated instincts.
+# High-confidence manually curated instincts should be preserved alongside these.
+
+---
+id: vikash-chatbot--commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/gamingffhayato-alt/vikash-chatbot-
+---
+
+# Vikash Chatbot  Commit Length
+
+## Action
+
+Keep commit messages concise (~28 characters)
+
+## Evidence
+
+- Average commit message length: 28 chars
+- Based on 2 commits
+
+---
+id: vikash-chatbot--naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/gamingffhayato-alt/vikash-chatbot-
+---
+
+# Vikash Chatbot  Naming Files
+
+## Action
+
+Use camelCase naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: camelCase
+
+---
+id: vikash-chatbot--export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/gamingffhayato-alt/vikash-chatbot-
+---
+
+# Vikash Chatbot  Export Style
+
+## Action
+
+Prefer default exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: default
+
+---
+id: vikash-chatbot--test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/gamingffhayato-alt/vikash-chatbot-
+---
+
+# Vikash Chatbot  Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
